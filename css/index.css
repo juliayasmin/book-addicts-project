@@ -1,0 +1,48 @@
+body
+{
+  background-image: url('../img/bgbook.jpg');
+}
+
+.titleH h1 {
+  font-family: 'Quattrocento', serif;
+  color:black;
+  font-size: 50px;
+  line-height: 62px;
+  text-align: center;
+  top: 50%;
+  left: 38%;
+  position: absolute;
+}
+
+.titleH h2 {
+  font-family: 'Tangerine', cursive;
+  color:black;
+  font-size: 78px;
+  line-height: 62px;
+  top: 60%;
+  left: 38%;
+  position: absolute;
+}
+
+.button {
+  background-color: Beige;
+  border: yes;
+  color: black;
+  font-family:'Otomanopee One', sans-serif;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  bottom: 50px;
+  right: 580px;
+  position: absolute;
+}
+
+a:hover {
+  color:brown;
+  background-color: lightgrey;
+  text-decoration: underline;
+}

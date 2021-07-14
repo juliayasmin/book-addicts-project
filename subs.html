@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    		<meta charset="utf-8">
+    		<title>Book Addicts</title>
+    		<meta name="viewport" content="width=device-width, initial-scale=1">
+    		<link rel="stylesheet" type="text/css" href="css/subs.css">
+    		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&family=Quattrocento+Sans&family=Tangerine&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  	</head>
+
+  	<body>
+
+    		<div class="bg">
+
+    			<div class="navbar">
+    				<h1 class="logo">Book Addicts</h1>
+    					<a href="home.html">Home</a>
+    					<a href="about.html">About</a>
+    						<div class="dropdown">
+    							<button class="dropbtn">Genre
+    								<i class="fa fa-caret-down"></i>
+    							</button>
+    								<div class="dropdown-content">
+    									<a href="fantasy.html">Fantasy</a>
+    									<a href="horror.html">Horror</a>
+    									<a href="nonfiction.html">Non-Fiction</a>
+    									<a href="poetry.html">Poetry</a>
+    								</div>
+    						</div>
+              <a href="quotes.html">Quotes</a>
+                <div class="dropdown">
+                  <button class="dropbtn">More
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+                    <div class="dropdown-content">
+                      <a href="feedback.html">Feedback</a>
+                      <a href="subs.html">Subscribe</a>
+                    </div>
+                </div>
+    			</div>
+
+          <br><h1 class="title">SUBSCRIBE</h1><br>
+
+          <div class="container">
+            <h2>Don't want to miss when there's a new book reviewed?</h2>
+            <h3>Sign up now to get notify for every book reviewed!</h3><br>
+
+            <form action="submission.html">
+              
+              <div class="row">
+                <div class="col-25">
+                  <label for="name">Name:</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="name" name="name" placeholder="Your name...">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-25">
+                  <label for="gender">Gender</label>
+                </div>
+                <div class="col-75">
+                  <label class="containerbutton">Male
+                    <input type="radio" checked="checked" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="containerbutton">Female
+                    <input type="radio" name="radio">
+                    <span class="checkmark"></span>
+                  </label>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-25">
+                  <label for="birthdate">Birth Date:</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="birthdate" name="birthdate" placeholder="Eg: 01/01/1999">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-25">
+                  <label for="phonenumber">Phone Number:</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="phonenumber" name="phonenumber" placeholder="Eg: 012-3456789">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-25">
+                  <label for="email">Email:</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="email" name="email" placeholder="Eg: YourEmail@gmail.com">
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-25">
+                  <label for="state">State</label>
+                </div>
+                <div class="col-75">
+                  <select id="state" name="state">
+                    <option value="johor">Johor</option>
+                    <option value="kedah">Kedah</option>
+                    <option value="kelantan">Kelantan</option>
+                    <option value="melaka">Melaka</option>
+                    <option value="negeri sembilan">Negeri Sembilan</option>
+                    <option value="pahang">Pahang</option>
+                    <option value="perak">Perak</option>
+                    <option value="perlis">Perlis</option>
+                    <option value="pulau pinang">Pulau Pinang</option>
+                    <option value="sabah">Sabah</option>
+                    <option value="sarawak">Sarawak</option>
+                    <option value="selangor">Selangor</option>
+                    <option value="terengganu">Terengganu</option>
+                    <option value="wilayah persekutuan">Wilayah Persekutuan</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="row">
+                <input type="submit" value="Submit">
+              </div>
+
+            </form>
+
+          </div>
+
+          <div class="previousposition">
+            <a href="feedback.html" class="previous">&laquo; Previous </a>
+
+          </div>
+
+    		</div>
+
+  	</body>
+</html>
